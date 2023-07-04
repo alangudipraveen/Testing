@@ -28,6 +28,7 @@ public class Trail {
 		driver.get("https://www.google.com/");
 		driver.findElement(By.xpath("//textarea[@title='Search']")).sendKeys("iphone", Keys.ENTER);
 		System.out.println(driver.getTitle());
+	
 	}
 
 	@Test
