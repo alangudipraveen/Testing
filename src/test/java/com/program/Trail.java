@@ -20,6 +20,7 @@ public class Trail {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		// driver.get("https://www.google.com/");
+		System.out.println("empty");
 
 	}
 
